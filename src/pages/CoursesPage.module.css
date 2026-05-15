@@ -1,0 +1,22 @@
+.coursesPage {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.coursesPage h2 {
+    color: #1B4F72;
+    margin-bottom: 1.5rem;
+}
+
+.coursesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+}
+
+.noResults {
+    text-align: center;
+    padding: 3rem;
+    color: #999;
+    font-style: italic;
+}

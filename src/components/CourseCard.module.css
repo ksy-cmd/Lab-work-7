@@ -1,0 +1,73 @@
+.card {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.image img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.info {
+    padding: 1rem;
+}
+
+.info h3 {
+    margin: 0 0 0.5rem;
+    color: #1B4F72;
+    font-size: 1.2rem;
+}
+
+.subject {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.details {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+    font-size: 0.85rem;
+}
+
+.level {
+    padding: 0.2rem 0.5rem;
+    border-radius: 20px;
+}
+
+.levelBeginner {
+    background-color: #D5F5E3;
+    color: #27AE60;
+}
+
+.levelIntermediate {
+    background-color: #FDEBD0;
+    color: #F39C12;
+}
+
+.levelAdvanced {
+    background-color: #FADBD8;
+    color: #E74C3C;
+}
+
+.duration {
+    color: #666;
+}
+
+.description {
+    color: #555;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin: 0;
+}
