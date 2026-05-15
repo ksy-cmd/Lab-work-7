@@ -1,13 +1,7 @@
-import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [react()],
   base: '/Lab-work-7/',  // ← заміни на назву твого репозиторію
-  resolve: {
-    alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
-    }
-  }
 })
